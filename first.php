@@ -9,29 +9,7 @@
     =============================================
     -->
     <title>Branding Assets 1</title>
-    <!--  
-    Favicons
-    =============================================
-    -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <!--  
-    Stylesheets
-    =============================================
-    
-    -->
-    <!-- Default stylesheets-->
+   
     <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Template specific stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
@@ -48,27 +26,39 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+    <style>
+    div.sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      padding: 300px;
+      font-size: 20px;
+      position: fixed;
+      z-index: 999;
+      
+    }
+</style>
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
-      <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="assets/images/2/banner.PNG">
+      <section class="home-section home-full-height" id="home" data-background="assets/images/2/banner1.jpg">
         <div class="titan-caption">
           <div class="caption-content">
+          
             <!-- <div class="font-alt mb-30 titan-title-size-1">Hello &amp; welcome</div> -->
             <!-- <div class="font-alt mb-40 titan-title-size-4">Branding Assets</div> -->
           </div>
         </div>
       </section>
       <div class="main">
-     
         <section>
         <div class="row">
             <div class="col-sm-8">
             <div><img src="assets/images/2/primaryColor.PNG" alt="Portfolio Item"/></div>
             </div>
-            <div class="sticky-example sticky">Sticky</div>
             <div class="col-sm-4"><br/><br/><br/>
-            <a style="position:absolute;bottom:5px;right:5px;margin:0;padding:5px 3px;" href="#">GO BACK</a>
+            <div class="sticky fix"><a href="second.php"><button class="btn btn-info btn-responsive">Next</button></a>
+            </div>
             <!-- <a href="second.php" class="next pull-right" style="position: sticky; position: fixed; color:purple;">Next &raquo;</a> -->
                 <h2 class="module-title font-alt">Primary Colors</h2>
                 
