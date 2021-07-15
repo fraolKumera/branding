@@ -161,7 +161,7 @@
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
-                <div class="alt-services-image align-center"><img src="assets/images/1/logos.PNG" alt="Feature Image"></div>
+                <div class="alt-services-image align-center"><img src="assets/images/1/logos.png" alt="Feature Image"></div>
               </div>
               <div class="col-sm-6 col-md-3 col-lg-3">
               <div class="alt-features-item">
@@ -442,7 +442,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 1 seconds
+  setTimeout(showSlides, 3000); // Change image every 1 seconds
 }
 </script>
   </body>
