@@ -51,7 +51,7 @@
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
-      <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="assets/images/home/egld.jpg">
+      <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="assets/images/home/egld1.jpg">
         <div class="titan-caption">
           <div class="caption-content">
             <div class="font-alt mb-30 titan-title-size-3">Hello &amp; welcome</div>
