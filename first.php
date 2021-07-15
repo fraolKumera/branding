@@ -150,7 +150,7 @@
                   <h3 class="alt-features-title font-alt">Marketing</h3>Branding is the marketing practice of actively shaping your brand. Branding is about defining who you are as a company.
                 </div>
               </div>
-              <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+              <div class="col-md-6 col-lg-6">
                 <div class="alt-services-image align-center"><img src="assets/images/2/logos.png" alt="Feature Image"></div>
               </div>
               <div class="col-sm-6 col-md-3 col-lg-3">
