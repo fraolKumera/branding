@@ -267,6 +267,54 @@
             </div>
           </div>
         </section>
+        <section class="module" id="news">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Interior Design</h2>
+                <div class="module-subtitle font-serif">Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people using the space.</div>
+              </div>
+            </div>
+            <div class="row multi-columns-row post-columns">
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/1/int1.jpg" alt="Blog-post Thumbnail"/></a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/1/int2.jpg" alt="Blog-post Thumbnail"/></a></div>
+                 
+                 
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/1/int3.jpg" alt="Blog-post Thumbnail"/></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="row multi-columns-row post-columns">
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/1/int4.jpg" alt="Blog-post Thumbnail"/></a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/1/int5.jpg" alt="Blog-post Thumbnail"/></a></div>
+                 
+                 
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/1/int6.jpg" alt="Blog-post Thumbnail"/></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section class="module" id="contact">
           <div class="container">
             <div class="row">
