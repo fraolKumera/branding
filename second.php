@@ -37,30 +37,7 @@
       font-size: 20px;
       position: fixed;
       z-index: 999;
-    }
-    
-                        
-  
-@media (max-width: 768px) {
-  .btn-responsive {
-    padding:2px 4px;
-    font-size:80%;
-    line-height: 1;
-    border-radius:3px;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-  .btn-responsive {
-    padding:4px 9px;
-    font-size:90%;
-    line-height: 1.2;
-  }
-}
-
-.btn-container .row {
-    margin-top:30px;
-}			                                  
+    }                               
 </style>
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
@@ -81,17 +58,10 @@
             <div class="col-sm-8">
             <div class="work-image"><img src="assets/images/1/primaryColors.PNG" alt="Portfolio Item"/></div>
             </div>
-            
-            <div class="sticky">
-            <div class="row">
-       <div class="col-md-12">
-            <div class="btn-group">
-            <a href="first.php"> <button class="btn btn-info btn-responsive">Previous</button></a>
-            </div>
-       </div>
-   </div>
-            </div>
+      
             <div class="col-sm-4"><br/><br/><br/>
+            <div class="sticky fix"><a href="second.php"><button class="btn btn-info btn-responsive">Next</button></a>
+            </div>
                 <h2 class="module-title font-alt">Primary Colors</h2>
                 <div class="module-subtitle font-serif">Primary colors help consumers to quickly identify a brand. These are the core colors of the brand. Commonly, primary colors are incorporated into a company's logo. A company has between 1-3 primary colors but there can be more if desired.</div>
             </div>
