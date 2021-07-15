@@ -51,7 +51,6 @@
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
-    
       <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="assets/images/2/banner.PNG">
         <div class="titan-caption">
           <div class="caption-content">
@@ -67,9 +66,10 @@
             <div class="col-sm-8">
             <div><img src="assets/images/2/primaryColor.PNG" alt="Portfolio Item"/></div>
             </div>
-            
+            <div class="sticky-example sticky">Sticky</div>
             <div class="col-sm-4"><br/><br/><br/>
-            <a href="second.php" class="next pull-right" style="position: sticky; position: fixed; color:purple;">Next &raquo;</a>
+            <a style="position:absolute;bottom:5px;right:5px;margin:0;padding:5px 3px;" href="#">GO BACK</a>
+            <!-- <a href="second.php" class="next pull-right" style="position: sticky; position: fixed; color:purple;">Next &raquo;</a> -->
                 <h2 class="module-title font-alt">Primary Colors</h2>
                 
                 <div class="module-subtitle font-serif">Primary colors help consumers to quickly identify a brand. These are the core colors of the brand. Commonly, primary colors are incorporated into a company's logo. A company has between 1-3 primary colors but there can be more if desired.</div>
