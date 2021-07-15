@@ -71,7 +71,7 @@
             <div class="col-sm-6">
             <div><img src="assets/images/2/purple.PNG" alt="Portfolio Item"/></div>
             <div class="form-check">
-                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
                  <label class="form-check-label" for="flexRadioDefault1">
                  Purple | Color of Wealth
                 </label>
@@ -82,7 +82,7 @@
             <div class="col-sm-6">
             <div><img src="assets/images/2/blue.PNG" alt="Portfolio Item"/></div>
             <div class="form-check">
-             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" required>
              <label class="form-check-label" for="flexRadioDefault2">Blue | Color of Responsibility and trust
              </label>
             </div>
@@ -98,7 +98,7 @@
             <div class="col-sm-4">
             <div><img src="assets/images/2/logoChoice.PNG" alt="Portfolio Item"/></div>
             <div class="form-check">
-                 <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault1">
+                 <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault1" required>
                  <label class="form-check-label" for="flexRadioDefault1">
                  Outer motion Export | Import
                 </label>
@@ -109,7 +109,7 @@
             <div class="col-sm-4">
             <div><img src="assets/images/2/logoChoice2.PNG" alt="Portfolio Item"/></div>
             <div class="form-check">
-             <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault2">
+             <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault2" required>
              <label class="form-check-label" for="flexRadioDefault2">Rise of the industry
              </label>
             </div>
@@ -118,7 +118,7 @@
             <div class="col-sm-4">
             <div><img src="assets/images/2/logoChoice3.PNG" alt="Portfolio Item"/></div>
             <div class="form-check">
-             <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault2">
+             <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault2" required>
              <label class="form-check-label" for="flexRadioDefault2">Multi color:- many industries
              </label>
             </div>
