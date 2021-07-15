@@ -60,7 +60,7 @@
             </div>
       
             <div class="col-sm-4"><br/><br/><br/>
-            <div class="sticky fix"><a href="second.php"><button class="btn btn-info btn-responsive">Next</button></a>
+            <div class="sticky fix"><a href="first.php"><button class="btn btn-info btn-responsive">Previous</button></a>
             </div>
                 <h2 class="module-title font-alt">Primary Colors</h2>
                 <div class="module-subtitle font-serif">Primary colors help consumers to quickly identify a brand. These are the core colors of the brand. Commonly, primary colors are incorporated into a company's logo. A company has between 1-3 primary colors but there can be more if desired.</div>
