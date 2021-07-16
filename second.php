@@ -9,29 +9,7 @@
     =============================================
     -->
     <title>Branding Assets 2</title>
-    <!--  
-    Favicons
-    =============================================
-    -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <!--  
-    Stylesheets
-    =============================================
-    
-    -->
-    <!-- Default stylesheets-->
+
     <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Template specific stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
@@ -48,13 +26,25 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
-  
+    <style>
+    div.sticky {
+      
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      right: 900px;
+      padding: 300px;
+      font-size: 20px;
+      position: fixed;
+      z-index: 999;
+    }                               
+</style>
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
  
     <main>
     
-      <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="assets/images/1/egeld.PNG">
+      <section class="home-section home-full-height" id="home" data-background="assets/images/1/banner1.jpg">
         <div class="titan-caption">
           <div class="caption-content">
             <!-- <div class="font-alt mb-30 titan-title-size-1">Hello &amp; welcome</div> -->
@@ -68,10 +58,10 @@
             <div class="col-sm-8">
             <div class="work-image"><img src="assets/images/1/primaryColors.PNG" alt="Portfolio Item"/></div>
             </div>
-            
-            
+      
             <div class="col-sm-4"><br/><br/><br/>
-            <a href="first.php" class="next pull-left" style="position: sticky; position: fixed; color:blue;">&laquo; Privious</a>
+            <div class="sticky fix"><a href="first.php"><button class="btn btn-info btn-responsive">Previous</button></a>
+            </div>
                 <h2 class="module-title font-alt">Primary Colors</h2>
                 <div class="module-subtitle font-serif">Primary colors help consumers to quickly identify a brand. These are the core colors of the brand. Commonly, primary colors are incorporated into a company's logo. A company has between 1-3 primary colors but there can be more if desired.</div>
             </div>
@@ -161,7 +151,7 @@
                   <h3 class="alt-features-title font-alt">Marketing</h3>Branding is the marketing practice of actively shaping your brand. Branding is about defining who you are as a company.
                 </div>
               </div>
-              <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+              <div class="col-md-6 col-lg-6">
                 <div class="alt-services-image align-center"><img src="assets/images/1/logos.png" alt="Feature Image"></div>
               </div>
               <div class="col-sm-6 col-md-3 col-lg-3">
@@ -272,6 +262,54 @@
                   <br/>A growth industry is that sector of an economy which experiences a higher-than-average growth rate as compared to other sectors. Growth industries are often new or pioneer industries that did not exist in the past. </p>
                   </div>
                
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module" id="news">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Interior Design</h2>
+                <div class="module-subtitle font-serif">Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more aesthetically pleasing environment for the people using the space.</div>
+              </div>
+            </div>
+            <div class="row multi-columns-row post-columns">
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/1/int1.jpg" alt="Blog-post Thumbnail"/></a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/1/int2.jpg" alt="Blog-post Thumbnail"/></a></div>
+                 
+                 
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/1/int3.jpg" alt="Blog-post Thumbnail"/></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="row multi-columns-row post-columns">
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/1/int4.jpg" alt="Blog-post Thumbnail"/></a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/1/int5.jpg" alt="Blog-post Thumbnail"/></a></div>
+                 
+                 
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/1/int6.jpg" alt="Blog-post Thumbnail"/></a></div>
                 </div>
               </div>
             </div>
