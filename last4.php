@@ -62,72 +62,73 @@
           </div>
         </div>
       </section>
-      <form method="POST" action="">
-      <section>
-          <center>
-        <div class="row">
-        <br/><br/>
-        <h2 class="module-title font-alt">Color Choice</h2>
-            <div class="col-sm-6">
-            <div><img src="assets/images/2/purple.PNG" alt="Portfolio Item"/></div>
-            <div class="form-check">
-                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
-                 <label class="form-check-label" for="flexRadioDefault1">
-                 Purple | Color of Wealth
+      <form method="POST" action="Admin/vote.php">
+          <section>
+              <center>
+            <div class="row">
+            <br/><br/>
+            <h2 class="module-title font-alt">Color Choice</h2>
+                <div class="col-sm-6">
+                <div><img src="assets/images/2/purple.PNG" alt="Portfolio Item"/></div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="color" id="flexRadioDefault1" value="1"
+                    required>
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Purple | Color of Wealth
+                    </label>
+                </div>
+
+                </div>
+                
+                <div class="col-sm-6">
+                <div><img src="assets/images/2/blue.PNG" alt="Portfolio Item"/></div>
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="color" id="flexRadioDefault2" value="2" required>
+                <label class="form-check-label" for="flexRadioDefault2">Blue | Color of Responsibility and trust
                 </label>
+                </div>
+                </div>
             </div>
+              </center>
+            </section>
+            <section>
+              <center>
+            <div class="row">
+            <br/><br/>
+            <h2 class="module-title font-alt">Logo Choice</h2>
+                <div class="col-sm-4">
+                <div><img src="assets/images/2/logoChoice.PNG" alt="Portfolio Item"/></div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault1" value="3" required>
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Outer motion Export | Import
+                    </label>
+                </div>
 
-            </div>
-            
-            <div class="col-sm-6">
-            <div><img src="assets/images/2/blue.PNG" alt="Portfolio Item"/></div>
-            <div class="form-check">
-             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" required>
-             <label class="form-check-label" for="flexRadioDefault2">Blue | Color of Responsibility and trust
-             </label>
-            </div>
-            </div>
-        </div>
-          </center>
-        </section>
-        <section>
-          <center>
-        <div class="row">
-        <br/><br/>
-        <h2 class="module-title font-alt">Logo Choice</h2>
-            <div class="col-sm-4">
-            <div><img src="assets/images/2/logoChoice.PNG" alt="Portfolio Item"/></div>
-            <div class="form-check">
-                 <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault1" required>
-                 <label class="form-check-label" for="flexRadioDefault1">
-                 Outer motion Export | Import
+                </div>
+                
+                <div class="col-sm-4">
+                <div><img src="assets/images/2/logoChoice2.PNG" alt="Portfolio Item"/></div>
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault2" value="4" required>
+                <label class="form-check-label" for="flexRadioDefault2">Rise of the industry
                 </label>
-            </div>
+                </div>
+                </div>
 
+                <div class="col-sm-4">
+                <div><img src="assets/images/2/logoChoice3.PNG" alt="Portfolio Item"/></div>
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault2" value="5" required>
+                <label class="form-check-label" for="flexRadioDefault2">Multi color:- many industries
+                </label>
+                </div>
+                </div>
             </div>
-            
-            <div class="col-sm-4">
-            <div><img src="assets/images/2/logoChoice2.PNG" alt="Portfolio Item"/></div>
-            <div class="form-check">
-             <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault2" required>
-             <label class="form-check-label" for="flexRadioDefault2">Rise of the industry
-             </label>
-            </div>
-            </div>
-
-            <div class="col-sm-4">
-            <div><img src="assets/images/2/logoChoice3.PNG" alt="Portfolio Item"/></div>
-            <div class="form-check">
-             <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault2" required>
-             <label class="form-check-label" for="flexRadioDefault2">Multi color:- many industries
-             </label>
-            </div>
-            </div>
-        </div>
-          </center>
-          
-          <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit" name="submit">Submit</button>
-</form>
+              </center>
+              
+              <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit" name="submit">Submit</button>
+        </form>
           <br/><br/><br/>
         </section>
     <!--  
