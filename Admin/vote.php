@@ -18,7 +18,10 @@ $conn = mysqli_connect($servername, $username, $password, $dbname);
             // Update and increase the vote for the answer the user voted for
             $stmt = "UPDATE poll_answers SET votes = votes + 1 WHERE id = $color OR id = $logo ";
             if (mysqli_query($conn, $stmt)) {
-                echo "Record updated successfully";
+              ?>
+              <script>alert('Your Choice is Successfully Submitted.');
+              window.location.href='../index.php';
+              </script><?php
               } else {
                 echo "Error updating record: " . mysqli_error($conn);
               }
