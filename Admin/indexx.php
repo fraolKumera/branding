@@ -38,7 +38,7 @@ include 'functions.php';
             <div class="row">
               <div class="col-sm-2">
                 <h2 class="module-title font-alt">Primary Colors</h2>
-                <div><img src="../assets/images/2/primary.PNG" alt="Portfolio Item" style="width:50%; height:50%"/></div>
+                <div><img src="../assets/images/2/purple.PNG" alt="Portfolio Item" style="width:50%; height:50%"/></div>
               </div>
               <?php
                 $servername = "localhost";
