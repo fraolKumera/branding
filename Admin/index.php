@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 include 'functions.php';
  ?>
 <!DOCTYPE html>
@@ -205,3 +206,7 @@ include 'functions.php';
     <script src="../assets/js/main.js"></script>
   </body>
 </html>
+=======
+include_once('indexx.php');
+?>
+>>>>>>> 097f2436cde944ce1942ffc6a1006058287c41b8

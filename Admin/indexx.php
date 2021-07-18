@@ -38,13 +38,17 @@ include 'functions.php';
             <div class="row">
               <div class="col-sm-2">
                 <h2 class="module-title font-alt">Primary Colors</h2>
+<<<<<<< HEAD
                 <div><img src="../assets/images/2/purple.PNG" alt="Portfolio Item" style="width:50%; height:50%"/></div>
+=======
+                <div><img src="../assets/images/2/primary.png" alt="Portfolio Item" style="width:50%; height:50%"/></div>
+>>>>>>> 097f2436cde944ce1942ffc6a1006058287c41b8
               </div>
               <?php
-                $servername = "localhost";
-                $username = "root";
-                $password = "";
-                $dbname = "phppoll";
+                $servername = "db4free.net";
+                $username = "php_poll";
+                $password = "72766000000@f";
+                $dbname = "php_poll";
                 
                 // Create connection
                 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -103,7 +107,7 @@ include 'functions.php';
                  $total_votes = $ro1['votes'] +  $ro2['votes'];
               ?>
               <div class="col-sm-2">
-                <div><img src="../assets/images/1/primary.PNG" alt="Portfolio Item" style="width:50%; height:50%"/></div>
+                <div><img src="../assets/images/1/primary.png" alt="Portfolio Item" style="width:50%; height:50%"/></div>
               </div>
               <div class="col-sm-4">
                 <div class="poll-result">
