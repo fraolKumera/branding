@@ -12,10 +12,11 @@
 //     	exit('Failed to connect to database!' . $exception);
 //     }
 // }
-$servername = "db4free.net";
-$username = "php_poll";
+$servername = "https://powersoftet.com/";
+$username = "powersoftetcom_php_poll	";
 $password = "72766000000@f";
-$dbname = "php_poll";
+$dbname = "powersoftetcom_php_poll	
+";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
