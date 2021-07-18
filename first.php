@@ -57,7 +57,7 @@
             <div><img src="assets/images/2/primaryColor.PNG" alt="Portfolio Item"/></div>
             </div>
             <div class="col-sm-4"><br/><br/><br/>
-            <div class="sticky fix"><a href="second.php"><button class="btn btn-info btn-responsive">Next</button></a>
+            <div class="sticky fix"><a href="second.php"><button class="btn btn-warning btn-responsive">Next</button></a>
             </div>
             <!-- <a href="second.php" class="next pull-right" style="position: sticky; position: fixed; color:purple;">Next &raquo;</a> -->
                 <h2 class="module-title font-alt">Primary Colors</h2>
