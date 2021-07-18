@@ -299,8 +299,6 @@
               <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="post mb-20">
                   <div class="post-thumbnail"><a href="#"><img src="assets/images/2/int5.jpg" alt="Blog-post Thumbnail"/></a></div>
-                 
-                 
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4">
