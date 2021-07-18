@@ -33,11 +33,7 @@ include 'functions.php';
             <div class="row">
               <div class="col-sm-2">
                 <h2 class="module-title font-alt">Primary Colors</h2>
-<<<<<<< HEAD
-                <div><img src="../assets/images/2/purple.PNG" alt="Portfolio Item" style="width:50%; height:50%"/></div>
-=======
                 <div><img src="../assets/images/2/primary.png" alt="Portfolio Item" style="width:50%; height:50%"/></div>
->>>>>>> 097f2436cde944ce1942ffc6a1006058287c41b8
               </div>
               <?php
                 $servername = "db4free.net";
