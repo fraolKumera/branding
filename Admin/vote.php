@@ -1,10 +1,10 @@
 <?php
 include 'functions.php';
 // Connect to MySQL
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "phppoll";
+$servername = "db4free.net";
+$username = "php_poll";
+$password = "72766000000@f";
+$dbname = "php_poll";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
