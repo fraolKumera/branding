@@ -7,14 +7,9 @@ include 'functions.php';
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--  
-    Document Title
-    =============================================
-    -->
     <title>Branding Assets 1</title>
     
     <link href="../assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Template specific stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
@@ -38,11 +33,7 @@ include 'functions.php';
             <div class="row">
               <div class="col-sm-2">
                 <h2 class="module-title font-alt">Primary Colors</h2>
-<<<<<<< HEAD
-                <div><img src="../assets/images/2/purple.PNG" alt="Portfolio Item" style="width:50%; height:50%"/></div>
-=======
                 <div><img src="../assets/images/2/primary.png" alt="Portfolio Item" style="width:50%; height:50%"/></div>
->>>>>>> 097f2436cde944ce1942ffc6a1006058287c41b8
               </div>
               <?php
                 $servername = "db4free.net";

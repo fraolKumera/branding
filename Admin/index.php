@@ -57,10 +57,10 @@ include 'functions.php';
                             </div>
                         </div>
                         <?php
-                        $servername = "localhost";
-                        $username = "root";
-                        $password = "";
-                        $dbname = "phppoll";
+                        $servername = "db4free.net";
+                        $username = "php_poll";
+                        $password = "72766000000@f";
+                        $dbname = "php_poll";
                         
                         // Create connection
                         $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -205,7 +205,3 @@ include 'functions.php';
     <script src="../assets/js/main.js"></script>
   </body>
 </html>
-=======
-include_once('indexx.php');
-?>
->>>>>>> 097f2436cde944ce1942ffc6a1006058287c41b8

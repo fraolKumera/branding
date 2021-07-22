@@ -28,16 +28,15 @@
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
     <style>
     div.sticky {
-      
       position: -webkit-sticky;
       position: sticky;
       top: 0;
-      right: 900px;
       padding: 300px;
       font-size: 20px;
       position: fixed;
       z-index: 999;
-    }                               
+      
+    }
 </style>
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
@@ -60,7 +59,7 @@
             </div>
       
             <div class="col-sm-4"><br/><br/><br/>
-            <div class="sticky fix"><a href="first.php"><button class="btn btn-info btn-responsive">Previous</button></a>
+            <div class="sticky fix"><a href="first.php"><button class="btn btn-warning btn-responsive">Previous</button></a>
             </div>
                 <h2 class="module-title font-alt">Primary Colors</h2>
                 <div class="module-subtitle font-serif">Primary colors help consumers to quickly identify a brand. These are the core colors of the brand. Commonly, primary colors are incorporated into a company's logo. A company has between 1-3 primary colors but there can be more if desired.</div>

@@ -8,24 +8,7 @@
     Document Title
     =============================================
     -->
-    <title>Discription</title>
-    <!--  
-    Favicons
-    =============================================
-    -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <title>Branding Assets 1</title>
     <!--  
     Stylesheets
     =============================================
@@ -48,6 +31,12 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+    <style>
+      input[type=radio] {
+    width: 30px;
+    height: 30px;
+}
+</style>
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
@@ -74,7 +63,7 @@
                   <input class="form-check-input" type="radio" name="color" id="flexRadioDefault1" value="1"
                     required>
                     <label class="form-check-label" for="flexRadioDefault1">
-                    Purple | Color of Wealth
+                    <h4><b>&nbsp;&nbsp;&nbsp; Purple | Color of Wealth</b></h4>
                     </label>
                 </div>
 
@@ -84,7 +73,8 @@
                 <div><img src="assets/images/2/blue.PNG" alt="Portfolio Item"/></div>
                 <div class="form-check">
                 <input class="form-check-input" type="radio" name="color" id="flexRadioDefault2" value="2" required>
-                <label class="form-check-label" for="flexRadioDefault2">Blue | Color of Responsibility and trust
+                <label class="form-check-label" for="flexRadioDefault2">
+                <h4><b>&nbsp;&nbsp;&nbsp; Blue | Responsibility and trust</b></h4>
                 </label>
                 </div>
                 </div>
@@ -101,7 +91,7 @@
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault1" value="3" required>
                     <label class="form-check-label" for="flexRadioDefault1">
-                    Outer motion Export | Import
+                    <h4><b>&nbsp;&nbsp;&nbsp; Outer motion Export | Import</b></h4>
                     </label>
                 </div>
 
@@ -111,7 +101,8 @@
                 <div><img src="assets/images/2/logoChoice2.PNG" alt="Portfolio Item"/></div>
                 <div class="form-check">
                 <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault2" value="4" required>
-                <label class="form-check-label" for="flexRadioDefault2">Rise of the industry
+                <label class="form-check-label" for="flexRadioDefault2">
+                <h4><b>&nbsp;&nbsp;&nbsp; Rise of the industry</b></h4>
                 </label>
                 </div>
                 </div>
@@ -120,7 +111,8 @@
                 <div><img src="assets/images/2/logoChoice3.PNG" alt="Portfolio Item"/></div>
                 <div class="form-check">
                 <input class="form-check-input" type="radio" name="logo" id="flexRadioDefault2" value="5" required>
-                <label class="form-check-label" for="flexRadioDefault2">Multi color:- many industries
+                <label class="form-check-label" for="flexRadioDefault2">
+                <h4><b>&nbsp;&nbsp;&nbsp; Multi color:- many industries</b></h4>
                 </label>
                 </div>
                 </div>
