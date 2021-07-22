@@ -321,7 +321,7 @@
             </div>
             <div class="row">
               <div class="col-sm-12">
-                <form id="contactForm" role="form" method="post" action="php/contact.php">
+                <form method="post" enctype="multipart/form-data" action="Admin/contact.php">
                   <div class="form-group">
                     <label class="sr-only" for="name">Name</label>
                     <input class="form-control" type="text" id="name" name="name" placeholder="Your Name*" required="required" data-validation-required-message="Please enter your name."/>
@@ -337,7 +337,7 @@
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="text-center">
-                    <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
+                    <input class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit" name="submit">
                   </div>
                 </form>
                 <div class="ajax-response font-alt" id="contactFormResponse"></div>
@@ -347,6 +347,7 @@
         </section>
       </div>
     </main>
+    
     
     <!-- <a href="#" class="previous" >&laquo; Previous</a> -->
     
